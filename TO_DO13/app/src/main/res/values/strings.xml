@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TO_DO12</string>
+    <string name="donuts">Donuts are glazed and sprinkled with candy</string>
+    <string name="ice_cream">Ice cream sandwiches have chocolate wafers and vanilla filling</string>
+    <string name="froyo">Froyo is premium self-serve frozen yogurt</string>
+
+    <string-array name="item_list">
+        <item> Home</item>
+        <item> Work</item>
+        <item> Mobile</item>
+        <item> Other</item>
+    </string-array>
+</resources>
