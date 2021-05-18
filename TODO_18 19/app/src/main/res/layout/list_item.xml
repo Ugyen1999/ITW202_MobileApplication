@@ -17,6 +17,7 @@
 
         <TextView
             android:id="@+id/title"
+            style="@style/SportsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
@@ -35,6 +36,7 @@
 
         <TextView
             android:id="@+id/sub_title"
+            style="@style/SportsTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="8dp"
