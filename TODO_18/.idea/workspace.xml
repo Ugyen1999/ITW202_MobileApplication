@@ -33,7 +33,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[VirtualDevicePath@C:\Users\DELL\.android\avd\Pixel_C_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -57,7 +56,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../MyApp" />
     <property name="settings.editor.selected.configurable" value="emulator" />
   </component>
   <component name="RunManager">
@@ -148,6 +147,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1182" height="544" key="AVDManager" timestamp="1621310803561">
@@ -158,6 +158,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="118" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1621313061634" />
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1621520301952">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1621520301952" />
     <state x="184" y="8" key="SettingsEditor" timestamp="1621310803205">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TODO_4</string>
+    <string name="reply_recieved">Reply Received</string>
+    <string name="enter_your_text_here">Enter Your Text Here</string>
+    <string name="replyText">Enter Your Text Here</string>
+    <string name="todo4Replyfrom2nd">Reply Received</string>
+    <string name="enter_text_here">Enter text here</string>
+    <string name="msgtosendtomain">Enter Your Text Here</string>
+    <string name="send_button">send</string>
+    <string name="EnterText1MainActivity">Enter Your Text</string>
+    <string name="mainActivityreplyreceived">Reply Received</string>
+    <string name="replybuttonmsg">Reply</string>
+    <string name="enterTextmainact2">Enter Your Text</string>
+    <string name="mainActivity2replyreceived">Reply Received</string>
+</resources>
