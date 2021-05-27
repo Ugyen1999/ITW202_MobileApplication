@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ToDo22</string>
+    <string name="instructions">Enter the book name that you want to find</string>
+    <string name="input_hint">Enter a book title</string>
+</resources>
