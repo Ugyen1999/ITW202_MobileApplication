@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    tools:context=".add">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:id="@+id/cimageView"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/logogcit"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@id/cimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/logo"/>
+
+                <TextView
+                    android:id="@+id/dis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/cimage"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="40dp"
+                    android:text="GCIT ཟ་ཁང་རྩིིས་དེབ།"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+
+                    <TextView
+                        android:id="@+id/displaycustomername"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:layout_centerHorizontal="true"
+                        android:textSize="20dp" />
+
+                    <TextView
+                        android:id="@+id/ctextView5"
+                        android:layout_width="192dp"
+                        android:layout_height="51dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/display"
+                        android:gravity="center"
+                        android:text="Add Credit"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:layout_marginTop="50dp"/>
+                </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/creditamount"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingStart="15dp"
+                android:background="@drawable/edittextradus"
+                android:ems="10"
+                android:hint="  Enter Amount"
+                android:inputType="date"
+                android:layout_marginTop="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/currentdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:paddingStart="15dp"
+                        android:background="@drawable/edittextradus"
+                        android:ems="10"
+                        android:hint="  Enter Date"
+                        android:layout_marginTop="10dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/button"
+                        android:layout_width="match_parent"
+                        android:layout_height="76dp"
+                        android:onClick="Date"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginRight="140dp"
+                        android:src="@drawable/date"
+                        android:text="Date"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+            <EditText
+                android:id="@+id/additem"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/edittextradus"
+                android:drawableEnd="@drawable/arrow_down"
+                android:paddingStart="15dp"
+                android:ems="10"
+                android:hint="Add Item"
+                android:layout_marginTop="10dp" />
+
+            <Button
+                android:id="@+id/addcredit"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/radiuss"
+                android:text="Save"
+                android:textColor="@color/blue2"
+                app:backgroundTint="@color/lightblue" />
+            />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+

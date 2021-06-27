@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".splashpage"
+    android:id="@+id/splashlayout"
+    android:background="@drawable/gradient_list">
+
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/gcit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GCIT ཟ་ཁང་རྩིས་དེབ།"
+        android:layout_alignBaseline="@+id/splash"
+        android:textSize="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/splash"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gcit"
+        android:layout_marginTop="60dp"
+        android:fontFamily="cursive"
+        android:text="Your Convenient Book"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView9"
+
+        android:layout_marginTop="50dp"
+        android:fontFamily="cursive"
+        android:text="Eat now and pay later"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</RelativeLayout>
+

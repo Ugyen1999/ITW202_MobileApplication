@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">CREDITBOOK</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="admin_navigation_drawer_open">Open navigation drawer</string>
+    <string name="admin_navigation_drawer_close">Close navigation drawer</string>
+    <string name="discriptionapp">GCIT Zakhang Tsi-Deb is app-base system managing the credit account book in Gyalposhing college
+canteen. It will offer the user (customers) to check/view the total amount and the amount made in the
+particular date through Gmail notification send by canteen owner (Admin). The customer gets notified on
+any updates made in individuals account without time consuming, making it more effective, convenient
+and easy to manage and use. It ease in maintaining the credit account for both admin and user and build
+transparency in between them.
+</string>
+    <string name="More1">
+<a href="https://www.facebook.com/tashi.phuntsho.3192">More...</a>
+</string>
+
+    <string name="More2">
+<a href="https://www.facebook.com/tseringgyeltshen.tsheringgyeltshen.98">More...</a>
+</string>
+
+    <string name="More3">
+<a href="https://www.instagram.com/sun_shine623/">More...</a>
+</string>
+
+    <string name="More4">
+<a href="https://www.facebook.com/ugyen.teshe">More...</a>
+</string>
+
+    <string name="More5">
+<a href="https://www.instagram.com/chokey_t99/">More...</a>
+</string>
+
+    <string-array name="department">
+        <item>BScIT</item>
+        <item>BScCS</item>
+        <item>Staff</item>
+    </string-array>
+
+</resources>

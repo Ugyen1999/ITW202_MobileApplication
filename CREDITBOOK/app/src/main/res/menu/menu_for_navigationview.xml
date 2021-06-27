@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    />
+
+    <item
+        android:id="@+id/developer"
+        android:icon="@drawable/ic_first"
+        android:title="About App" />
+
+    <item
+        android:id="@+id/resetpassword"
+        android:title="Reset Your Password"
+        android:icon="@drawable/ic_password"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="LogOut"
+        android:icon="@drawable/logout"/>
+
+
+</menu>

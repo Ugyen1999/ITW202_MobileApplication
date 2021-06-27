@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient2"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:id="@+id/cimageView"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/logogcit"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@id/cimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/logo"/>
+
+                <TextView
+                    android:id="@+id/dis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/cimage"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="40dp"
+                    android:text="GCIT ཟ་ཁང་རྩིིས་དེབ།"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/edittextradus"
+        android:drawableRight="@drawable/ic_number"
+        android:ems="10"
+        android:hint="  StudentId/LicenseNo/StaffId"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:paddingEnd="20dp"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:background="@drawable/edittextradus"
+        android:drawableRight="@drawable/ic_password"
+        android:ems="10"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:paddingEnd="20dp"/>
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/radius"
+            android:onClick="callHomePage"
+            android:textColor="@color/blue2"
+            android:text="Log In"
+            app:backgroundTint="@color/lightblue" />
+
+
+    <TextView
+        android:id="@+id/forgotpass"
+        android:layout_width="168dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:onClick="forgotpassword"
+        android:text="Forgot Password"
+        android:textColor="@color/blue2"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="167dp"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:onClick="adminsignup"
+        android:text="Sign Up"
+        android:textColor="@color/blue2"
+        android:textSize="20dp"
+        />
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>

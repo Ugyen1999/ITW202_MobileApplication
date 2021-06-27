@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
+    tools:context=".customersign">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:layout_width="130dp"
+                    android:layout_height="115dp"
+                    android:id="@+id/cimageView"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/logogcit"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+                <ImageView
+                    android:id="@id/cimage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="130dp"
+                    android:layout_marginLeft="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/logo"/>
+
+                <TextView
+                    android:id="@+id/dis"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@id/cimage"
+                    android:gravity="center_horizontal"
+                    android:layout_marginLeft="40dp"
+                    android:text="GCIT ཟ་ཁང་རྩིིས་དེབ།"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ctextView5"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:gravity="center"
+                android:text="Customer Registration"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+            <TextView
+                android:id="@+id/ctextView6"
+                android:layout_width="wrap_content"
+                android:layout_height="51dp"
+                android:text="Select Department"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+            <Spinner
+                android:id="@+id/selectdep"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/edittextradus"
+                android:inputType="text"
+               />
+
+            </RelativeLayout>
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/cname"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/edittextradus"
+                android:drawableEnd="@drawable/ic_person"
+                android:ems="10"
+                android:hint="  Name"
+                android:inputType="textPersonName"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp" />
+
+            <EditText
+                android:id="@+id/staffidstudentid"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/edittextradus"
+                android:drawableEnd="@drawable/ic_number"
+                android:ems="10"
+                android:hint="  Student Id/Staff Id"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp" />
+
+            <EditText
+                android:id="@+id/cemail"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/edittextradus"
+                android:drawableEnd="@drawable/ic_email"
+                android:ems="10"
+                android:hint="  Email"
+                android:inputType="textEmailAddress"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp" />
+
+            <EditText
+                android:id="@+id/cpassword"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="15dp"
+                android:background="@drawable/edittextradus"
+                android:drawableEnd="@drawable/ic_password"
+                android:ems="10"
+                android:hint="  Password"
+                android:inputType="textPassword"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/signinbutton2"
+                android:layout_width="200dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/radius"
+                android:textColor="@color/blue2"
+                android:text="Sign In"
+                app:backgroundTint="@color/lightblue" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

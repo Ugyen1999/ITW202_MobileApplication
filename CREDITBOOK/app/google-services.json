@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "236176497902",
+    "firebase_url": "https://creditbook-b4593-default-rtdb.firebaseio.com",
+    "project_id": "creditbook-b4593",
+    "storage_bucket": "creditbook-b4593.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236176497902:android:b3e06e588850d201a167ff",
+        "android_client_info": {
+          "package_name": "com.example.creditbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "236176497902-jcg5hevj5gk1b7mmfg92fufh8pclsf1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO05X9Aetz4r7yXx2427QuiX4FAO_uC0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "236176497902-jcg5hevj5gk1b7mmfg92fufh8pclsf1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
