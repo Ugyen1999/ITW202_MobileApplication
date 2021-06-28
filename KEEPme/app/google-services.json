@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "93006414904",
+    "project_id": "keepme-1bf0d",
+    "storage_bucket": "keepme-1bf0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93006414904:android:cbc730c47495c80d5a12cd",
+        "android_client_info": {
+          "package_name": "gcit.edu.keepme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93006414904-4srho79u2g2s0aprh55f41mmpi7qvm1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByjSSEPtFYu6OlVMECfUHRBQa7uKzN8dQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93006414904-4srho79u2g2s0aprh55f41mmpi7qvm1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

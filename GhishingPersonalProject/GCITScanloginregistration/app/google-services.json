@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "386223599040",
+    "project_id": "gcit-scan-48f6d",
+    "storage_bucket": "gcit-scan-48f6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386223599040:android:23d6fddecb68def42f2c25",
+        "android_client_info": {
+          "package_name": "gcit.edu.gcit_scan_login_registration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386223599040-peaj5mg3gpppq4r51r433ecttkop7cng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCH3DnBNhgWYirzUut_DtOz1Vor2aAdXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386223599040-peaj5mg3gpppq4r51r433ecttkop7cng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

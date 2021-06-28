@@ -1,0 +1,2 @@
+rootProject.name = "GCIT-Scan-login-registration"
+include ':app'

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gcit.edu.keepme">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/newlogo"
+        android:label="Keep Me"
+        android:roundIcon="@drawable/newlogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KEEPme">
+        <activity android:name=".Search"></activity>
+        <activity android:name=".forgotpass" />
+        <activity android:name=".Notification" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".auth.login"
+            android:theme="@style/Theme.NoActionBar" />
+        <activity
+            android:name=".auth.registration"
+            android:theme="@style/Theme.NoActionBar" />
+        <activity
+            android:name=".auth.mainpage"
+            android:theme="@style/Theme.NoActionBar" />
+        <activity
+            android:name=".note.EditNote"
+            android:theme="@style/Theme.NoActionBar" />
+        <activity
+            android:name=".note.AddNote"
+            android:label="@string/title_activity_add_note"
+            android:theme="@style/Theme.KEEPme.NoActionBar" />
+        <activity
+            android:name=".note.NoteDetails"
+            android:label="@string/title_activity_note_details"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/Theme.KEEPme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
